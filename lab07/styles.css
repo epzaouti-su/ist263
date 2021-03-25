@@ -7,7 +7,7 @@ body {
     color:#f2be00;
 }
 
-p , ul , ol {
+p , ul , ol , table {
     color: #f2be00;
 }
 
@@ -22,7 +22,7 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
 }
-
+ 
 nav a:link {
     color: #ff8800;
 }
