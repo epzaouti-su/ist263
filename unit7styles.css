@@ -1,0 +1,35 @@
+h1 {color: #f00000;}
+
+a:link {color: #00ff00;}
+
+a:visited {color: #0000ff;}
+
+a:hover {color: #999999;}
+/* hex color requires the pound sign */
+/* psuedo selectors need a color between the selector and its state */
+
+.oneoff:hover{
+    color: #0283bf;
+    /* this color overrides the general cover for the link tag bc the class cover is more specific to that element */
+    background-color: #5d02bf;
+}
+/* you can use any selector with psuedo selectors */
+
+body {
+    background-image: url(images/linkedin-logo.svg);
+    background-color: #ebebda;
+    background-size: 200px;
+}
+
+p {
+    background-color: #ffffff;
+    /* to calculate width: width of box + padding x2 + border x2 + margin x2*/
+    /* for our box: 300 px + 40 px + 10 px + 100px = 450pixels */
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #000000;
+    /* this is a combo property value, it's documented in the css specification*/
+}
+/* file path for background is from the css file*/
+/* dont forget the url and parenthesis for background image*/
