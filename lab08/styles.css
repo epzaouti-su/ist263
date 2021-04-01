@@ -41,6 +41,20 @@ nav a:hover {
 
 .clear {clear:both}
 
-.emailandlinkedin {float: right;}
-
 .address {float: left;}
+
+.box1 {background-color: cadetblue;
+        margin: 30px;
+        padding: 20px;   
+        border-radius: 1em; 
+}
+
+.box2 {display: flex;
+        margin-top: 50px;
+        background-color: cadetblue;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 1em;
+}
+
+.map , .form {flex: 1;}
