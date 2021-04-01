@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Unit 8 Flex</title>
+        <meta charset="utf-8">
+        <style>
+            body{background-color: #999999;}
+            img {width: 150px}
+            footer {background-color: #000e54;
+                    color: #c9cbd0;
+                    font-family: Arial, Helvetica, Sans-Serif}
+            /*footer colors background is #000e54, text is# c9cbd0*/
+            div {border: 1px solid white;}
+            .firstrow, .secondrow {display: flex;}
+            .firstcol, .secondcol, .thirdcol, .fourthcol, .fifthcol{
+                flex: 1; /* ratio of space column takes up*/
+            }
+
+            .firstcol {order: 3;}
+            .secondcol {order: 1;}    
+            /*you can change the order of containters with order property*/
+
+            .sndrowfirstcol {flex-basis: 20%;}
+            .sndrowsecondcol {flex-basis: 45%;}
+            /*flex basis allowyou to use percentages for column width*/
+            
+            /*every child contatiner will display side by side */
+            img {border-bottom: 1px solid #c9cbd0;}
+        </style>
+        <body>
+            <footer>
+                <div
+
+            </footer>
