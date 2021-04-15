@@ -4,11 +4,11 @@ h1 , h2 {
 
 body {
     background-color: #ffffff;
-    color:#f2be00;
+    color: #816603;
 }
 
 p , ul , ol , table {
-    color: #f2be00
+    color: #816603;
 }
 }
 
@@ -72,4 +72,16 @@ nav a:hover {
         padding: 8px;
     }
     span {display: none;}
+}
+
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#skip:focus {
+    position: absolute;
+    left: 10px;
 }
