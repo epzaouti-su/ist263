@@ -17,16 +17,16 @@ a:link {color: #000000;}
 
 a:visited {color: #00ffdd;}
 
-a:hover {color: #b2b8b7;}
+a:hover {color:#000000}
 
 nav {
-    background-color: gainsboro;
+    background-color:ghostwhite;
     padding: 10px;
     margin-bottom: 30px;
 }
  
 nav a:link {
-    color: #ff8800;
+    color: #f38200;
 }
 
 nav a:visited {
@@ -34,7 +34,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    background-color: #000000;
+    background-color:ghostwhite;
 }
 
 .footerquote {float: right;
