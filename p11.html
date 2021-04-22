@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>P11 -- Form with JavsaScript</title>
+        <script>
+            function FormAlert() {
+            /* alert('you left this form element'); */
+            document.getElementById("message").innerHTML = "you left this form element";
+        }
+        </script>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form action="mailto:epzaouti@syr.edu"method="POST">
+            <label for="firstname">Enter first name:</label>
+            <input onblur="FormAlert();" type="text" name="firstname" id="firstname"><br>
+
+            <label for="comments">Enter your comments:</label><br>
+            <textarea name="comments" id="comments" rows="10" cols="100">Tell us what you think!!</textarea><br>
+            
+            <input type="submit" value="Send Form">
+        </form>
+        <div id="message"></div> <!-- this is where I am gona bring up the message -->
+    </body>
+</html>
