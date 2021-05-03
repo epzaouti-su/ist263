@@ -122,3 +122,10 @@ nav a:visited {
 .liverpoolflexbox2, .liverpoolheading, .liverpooltext, .liverpoolvideotext {
     color: #b30c0c;
 }
+
+@media (max-width: 800px) {
+    .liverpoolflex, .mancityflex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
