@@ -45,6 +45,7 @@ nav a:visited {
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
+    flex-wrap: wrap;
 }
 
 .mancityflexbox1, .mancityflexbox2, .mancityflexbox3 {
@@ -52,6 +53,7 @@ nav a:visited {
     max-width: 100%;
     max-height: 100%;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .mancitylogo, .mancityeleven {
@@ -84,6 +86,7 @@ nav a:visited {
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
+    flex-wrap: wrap;
 }
 
 .liverpoolflexbox1, .liverpoolflexbox2, .liverpoolflexbox3 {
@@ -91,6 +94,7 @@ nav a:visited {
     max-width: 100%;
     max-height: 100%;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .liverpoollogo, .liverpooleleven {
@@ -137,4 +141,12 @@ nav a:visited {
         padding: 8px;
     }
     span {display: none;}
+}
+
+nav{
+    background-color: white;
+}
+
+nav a:hover {
+    color: green;
 }
