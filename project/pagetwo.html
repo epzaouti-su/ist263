@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manchester City</title>
-    <link rel="stylesheet" href="projectstyles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manchester City</title>
+        <link rel="stylesheet" href="projectstyles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <script>
+            function changenav() {
+                    if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+                    document.getElementById("navlinks").style.display = "none";
+                }
+                else {
+                    document.getElementById("navlinks").style.display = "block";
+                }
+            }
+        </script>
     </head>
     <body>
         <nav>
-            <a href="index.html">Premier League Introduction</a> <span>|</span>
-            <a href="pagetwo.html">Manchester City</a> <span>|</span>
-            <a href="pagethree.html">Liverpool</a>
+            <img src="https://laferger.github.io/ist263/images/hamburger.png" id="hamicon" alt="hamburger icon" width="35" onclick="changenav();">
+                <div id="navlinks">
+                    <a href="index.html">Premier League Introduction</a> <span>|</span>
+                    <a href="pagetwo.html">Manchester City</a> <span>|</span>
+                    <a href="pagethree.html">Liverpool</a>
+                </div>
         </nav>
 
         <h1 class="mancityheading">2018-2019 Premier League Winners</h1>

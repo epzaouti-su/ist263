@@ -134,13 +134,15 @@ nav a:visited {
     }
 }
 
+#hamicon {display: none;}
 @media only screen and (max-width: 800px) {
+    span {display: none;}
+    #hamicon {display: block;}
     nav a {
         display: block;
-        width: 100%;
-        padding: 8px;
-    }
-    span {display: none;}
+        padding: 10px 0px;
+        }
+    #navlinks {display: none;}
 }
 
 nav{
